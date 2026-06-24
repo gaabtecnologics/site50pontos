@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fundo da página */
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    padding: 40px;
+}
+
+/* Cabeçalho */
+header {
+    text-align: left;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+/* Estilo do título principal */
+header h1 {
+    color: #003f7a;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: #d15c00;
+    margin-bottom: 12px;
+    font-size: 1.5rem;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #003f7a;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #002d59;
+}
+
+/* LOGO DO SENAI NO CANTO INFERIOR ESQUERDO */
+.logo-senai {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 120px;
+    z-index: 9999;
+}
+
+.oculto {
+    display: none;
+}
